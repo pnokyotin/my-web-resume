@@ -52,6 +52,14 @@ body {
   padding-bottom: 8px;
   margin-bottom: 16px;
 }
+
+.section-heading2 {
+  font-size: 22px;
+  color: white;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
 .section-title {
   font-size: 18px;
   margin-top: 20px;
