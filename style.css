@@ -1,0 +1,117 @@
+/* ========== Global ========== */
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ========== Layout ========== */
+.page-container {
+  max-width: 1400px;
+  margin-top: 30px;
+}
+
+/* ========== Profile Card (Left Column) ========== */
+.profile-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.profile-img {
+  width: 100%;
+}
+
+.con_img img{
+  background-color: teal;
+  color: red;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+.profile-info p {
+  margin: 6px 0;
+}
+.icon {
+  color: teal;
+}
+
+/* ========== Section Headings ========== */
+.section-heading {
+  font-size: 22px;
+  color: #444;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+.section-title {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: teal;
+}
+
+/* ========== Skills & Progress Bars ========== */
+.skill {
+  margin-bottom: 12px;
+}
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+.progress-bar div {
+  background-color: teal;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* ========== Languages ========== */
+.lang-bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  height: 24px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.lang-bar div {
+  background-color: teal;
+  height: 100%;
+}
+
+/* ========== Jobs & Education Sections ========== */
+.job, .edu {
+  margin-bottom: 16px;
+}
+.job h6, .edu h6 {
+  color: teal;
+}
+.current {
+  background-color: teal;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* ========== Footer ========== */
+.footer {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 30px;
+}
+

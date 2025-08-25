@@ -1,27 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="th">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>หน้าแรก</title>
-  <style>
-    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; line-height: 1.6; }
-    .card { max-width: 720px; margin: 0 auto; padding: 2rem; border: 1px solid #ddd; border-radius: 16px; }
-    h1 { margin-top: 0; }
-    a { text-decoration: none; }
-    .btn { display: inline-block; padding: .6rem 1rem; border: 1px solid #ccc; border-radius: 999px; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Resume</title>
+
+  <!-- W3.CSS -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class="card">
-    <h1>สวัสดี 👋</h1>
-    <p>นี่คือหน้าเว็บตัวอย่างแบบง่ายๆ คุณสามารถแก้ไขข้อความนี้ได้ตามต้องการ</p>
-    <ul>
-      <li>รองรับภาษาไทย</li>
-      <li>แสดงผลบนมือถือได้ (Responsive)</li>
-      <li>พร้อมเริ่มปรับแต่งต่อ</li>
-    </ul>
-    <a class="btn" href="#">ปุ่มตัวอย่าง</a>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content page-container">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+      <div class="w3-white w3-text-grey w3-card-4 profile-card">
+        <div class="con_img w3-display-container">
+
+          <img src="images\me.jpg" alt="Avatar" class="profile-img">
+
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            <h2 class="profile-name">Peerapat Nokyotin</h2>
+          </div>
+        </div>
+        <div class="w3-container profile-info">
+
+          <hr>
+
+          <p class="section-title"><b><i class="fa fa-asterisk fa-fw w3-margin-right icon"></i>Skills</b></p>
+          <div class="skill">
+            <p>c#</p>
+            <div class="progress-bar"><div style="width:90%">90%</div></div>
+          </div>
+          <div class="skill">
+            <p>java</p>
+            <div class="progress-bar"><div style="width:80%">80%</div></div>
+          </div>
+          <div class="skill">
+            <p>HTML+CSS</p>
+            <div class="progress-bar"><div style="width:75%">75%</div></div>
+          </div>
+          <div class="skill">
+            <p>python</p>
+            <div class="progress-bar"><div style="width:50%">50%</div></div>
+          </div>
+
+          <p class="section-title"><b><i class="fa fa-globe fa-fw w3-margin-right icon"></i>Languages</b></p>
+          <p>Thai</p>
+          <div class="lang-bar"><div style="width:100%"></div></div>
+          <p>English</p>
+          <div class="lang-bar"><div style="width:55%"></div></div>
+        </div>
+      </div><br>
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white section-card">
+
+        <h2 class="section-heading"><i class="fa fa-user fa-fw w3-margin-right"></i>personal</h2>
+        <p><i class="fa fa-file fa-fw w3-margin-right icon"></i>peerapat nokyotin</p>
+        <p><i class="fa fa-male fa-fw w3-margin-right icon"></i>male</p>
+        <p><i class="fa fa-birthday-cake fa-fw w3-margin-right icon"></i>17-08-2003</p>
+        <p><i class="fa fa-home fa-fw w3-margin-right icon"></i>202 Sulao Khlong Nueng 16 Bang Chan Khlong Sam Wa Bangkok, Thailand</p>
+        <p><i class="fa fa-envelope fa-fw w3-margin-right icon"></i>pnokyotin@gmail.com</p>
+        <p><i class="fa fa-phone fa-fw w3-margin-right icon"></i>0622808457</p>
+
+      </div>
+
+      <div class="w3-container w3-card w3-white section-card">
+        <h4 class="section-heading"><i class="fa fa-suitcase fa-fw w3-margin-right"></i>work experience</h4>
+        <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2025</h6>
+        <p>intern phoenix technology corporation</p>
+        <h2 class="section-heading"><i class="fa fa-certificate fa-fw w3-margin-right"></i>Education</h2>
+        <div class="edu">
+          <h5 class="w3-opacity"><b>Career Objective</b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2023</h6>
+          <p>certificate Thailand Cyber Top Talent 2023</p>
+          <hr>
+        </div>
+        <div class="edu">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - 2026</h6>
+          <p>Bangkok university</p>
+          <p>Data Science and Cybersecurity</p>
+        </div>
+
+        <h3 class="section-heading"><i class="fa fa-globe fa-fw w3-margin-right"></i>Media</h3>
+          <h6><i class=""></i>Fackebook : <span class="current">Peerapat Nokytin</span></h6>
+          <h6><i class=""></i>Line ID : <span class="current">pnokyotin</span></h6>
+      </div>
+
+    </div>
   </div>
+</div>
+
+<footer class="footer">
+  <p>resume จัดทำขึ้นเพื่อใช้ในการส่งงานวิชา CS319</p>
+</footer>
+
 </body>
 </html>
